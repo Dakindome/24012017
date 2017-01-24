@@ -1,5 +1,14 @@
+var Student = (function () {
+    function Student(firstname, middleinitial, lastname) {
+        this.firstname = firstname;
+        this.middleinitial = middleinitial;
+        this.lastname = lastname;
+        this.fullname = firstname + " " + middleinitial + " " + lastname;
+    }
+    return Student;
+}());
 function greeter(person) {
-    return "Hello, " + person;
+    return "Hello, " + person.firstname + " " + person.lastname;
 }
-var user = "Bui";
+var user = new Student("Mongkol", "bui", "Meanrat");
 document.body.innerHTML = greeter(user);
