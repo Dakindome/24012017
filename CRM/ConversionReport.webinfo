@@ -1,0 +1,52 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file CRM.vbproj at January 18 2011, 17:00:08.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+The following files were excluded from the website because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+File List == webform1.aspx,login_old.aspx,crm1_old.aspx,ipdcs2.aspx.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file CRM1.aspx.
+Access level of 'CRM.CRM1' changed to 'Partial' in file CRM1.aspx.vb (Line 8).
+Removed comment lines before designplaceholder declaration from file CRM1.aspx.vb.    CRM1.aspx.vb (Line 28)
+Removed attribute Codebehind from file CRM2.aspx.
+Access level of 'CRM.CRM2' changed to 'Partial' in file CRM2.aspx.vb (Line 7).
+Removed comment lines before designplaceholder declaration from file CRM2.aspx.vb.    CRM2.aspx.vb (Line 19)
+Removed attribute Codebehind from file CRMADR.aspx.
+Access level of 'CRM.CRMADR' changed to 'Partial' in file CRMADR.aspx.vb (Line 7).
+Removed comment lines before designplaceholder declaration from file CRMADR.aspx.vb.    CRMADR.aspx.vb (Line 23)
+Removed attribute Codebehind from file CRMPIC.aspx.
+Access level of 'CRM.CRMPIC' changed to 'Partial' in file CRMPIC.aspx.vb (Line 8).
+Removed comment lines before designplaceholder declaration from file CRMPIC.aspx.vb.    CRMPIC.aspx.vb (Line 26)
+Removed attribute Codebehind from file CRMUpl.aspx.
+Access level of 'CRM.CRMUpl' changed to 'Partial' in file CRMUpl.aspx.vb (Line 7).
+Removed comment lines before designplaceholder declaration from file CRMUpl.aspx.vb.    CRMUpl.aspx.vb (Line 19)
+Removed attribute Codebehind from file Global.asax.
+Removed attribute Codebehind from file Login.aspx.
+Access level of 'CRM.Login' changed to 'Partial' in file Login.aspx.vb (Line 5).
+Removed comment lines before designplaceholder declaration from file Login.aspx.vb.    Login.aspx.vb (Line 18)
+Removed attribute Codebehind from file XSLE.aspx.
+Access level of 'CRM.XSLE' changed to 'Partial' in file XSLE.aspx.vb (Line 7).
+Removed comment lines before designplaceholder declaration from file XSLE.aspx.vb.    XSLE.aspx.vb (Line 23)
+Removed attribute Codebehind from file XSLE2.aspx.
+Access level of 'CRM.XSLE2' changed to 'Partial' in file XSLE2.aspx.vb (Line 7).
+Removed comment lines before designplaceholder declaration from file XSLE2.aspx.vb.    XSLE2.aspx.vb (Line 25)
+Added folder App_Code.
+Moved file Constants.vb to the App_Code\ directory.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Removed file Bin\CRM.dll.
+Removed file Bin\CRM.pdb.
+Removed file CRM.vbproj.
+Removed file CRM.vbproj.webinfo.
+Renamed file webform1.aspx to file webform1.aspx.exclude.
+Renamed file login_old.aspx to file login_old.aspx.exclude.
+Renamed file crm1_old.aspx to file crm1_old.aspx.exclude.
+Renamed file ipdcs2.aspx to file ipdcs2.aspx.exclude.
+Project CRM.vbproj has been converted successfully at January 18 2011, 17:00:13.

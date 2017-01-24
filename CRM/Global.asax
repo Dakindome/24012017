@@ -1,0 +1,1 @@
+<%@ Application Inherits="CRM.Global" Language="VB" %>
